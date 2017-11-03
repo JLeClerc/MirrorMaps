@@ -37,7 +37,7 @@ public class Driver {
 		System.out.println(m.getTopNByValues(99).toString());
 		/* Output: 
 		{Alex=[1.1.1.1, 2.2.2.2, 2.3.3.3, 2.2.2.2], Deborah=[4.4.4.4], Erica=[4.4.4.4], Bob=[3.3.3.3, 3.3.3.3], Charlie=[4.4.4.4]}
-		{Alex=[1.1.1.1, 2.2.2.2, 2.3.3.3, 2.2.2.2], Deborah=[4.4.4.4], Erica=[4.4.4.4], Bob=[3.3.3.3, 3.3.3.3], Charlie=[4.4.4.4]}
+		{1.1.1.1=[Alex], 2.2.2.2=[Alex, Alex], 3.3.3.3=[Bob, Bob], 4.4.4.4=[Charlie, Deborah, Erica], 2.3.3.3=[Alex]}
 		{Alex=4, Deborah=1, Erica=1, Bob=2, Charlie=1}
 		{1.1.1.1=1, 2.2.2.2=2, 3.3.3.3=2, 4.4.4.4=3, 2.3.3.3=1}
 		[Alex=4, Bob=2, Erica=1, Deborah=1, Charlie=1]
